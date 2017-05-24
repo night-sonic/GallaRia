@@ -1,0 +1,10 @@
+body {
+  font-size: 22px; }
+
+body {
+  background-color: listgreen;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("img/2.JPG"); }
