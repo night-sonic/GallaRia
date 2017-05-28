@@ -1,10 +1,5 @@
-body {
-  font-size: 22px; }
-
-body {
-  background-color: listgreen;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-image: url("img/2.JPG"); }
+.p-2 {
+  background-color: #ccc;
+  margin: 2px;
+  text-align: center;
+  border: 1px solid red; }

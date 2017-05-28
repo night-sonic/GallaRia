@@ -1,15 +1,43 @@
-.p-2 {
-  background-color: #ccc;
-  margin: 2px;
-  text-align: center;
-  border: 1px solid red; }
+body {
+	background-image: url("/img/BG-sidebar.jpg"); 
+}
+.container, .col, .col-3  {
+	padding: 0;
+}
+#wrapper {
+	background-image: url("/img/BG-content.jpg");
+	border-top: 7px solid #6dbad6;
+}
+.text-center {
+	text-align: center; 
+}
+/***************************************************************
+	Sidebar
+***************************************************************/
+#sidebar {
+	background-color: #fff;
+	margin-right: 24px;
+	box-shadow: 5px 0 8px rgba(0,0,0,0.05);
+	margin-top: -7px;
+	padding-top: 18px;
+}
+/***************************************************************
+	Content
+***************************************************************/
+#content {
+	
+}
+/***************************************************************
+	@media-запросы
+***************************************************************/
+@media (min-width: 576px) {}
 
-.d-flex {
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 970px;
+	}
+}
